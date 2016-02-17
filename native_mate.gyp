@@ -19,23 +19,7 @@
       'dependencies': [
         '../base/base.gyp:base',
         '../v8/tools/gyp/v8.gyp:v8'
-      ],
-      'configurations': {
-            'Debug': {
-                'msvs_settings': {
-                            'VCCLCompilerTool': {
-                                'RuntimeLibrary': '3' # /MDd
-                    },
-                },
-            },
-            'Release': {
-                'msvs_settings': {
-                            'VCCLCompilerTool': {
-                                'RuntimeLibrary': '2' # /MD
-                    },
-                },
-            },
-        },
+      ]
     },
   ],
 }
